@@ -1,15 +1,64 @@
+:root {
+  --primary-backgroung-color: #fbf6f0;
+  --secondary-background-color: #e2d1c3;
+  --third-background-color: #f7f79b;
+  --info-color-turquoise: #41bebc;
+  --heading-color-blue: #07588a;
+  --text-brown-dark: #1d1716;
+  --text-shadow: 1px 1px #1d1716, 1px 1px 5px #236f9f;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  margin: 100px 0;
-  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 40px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 46px;
   font-weight: 600;
+  color: var(--heading-color-blue);
+  text-shadow: var(--text-shadow);
+}
+
+h2 {
+  font-weight: bold;
 }
 
 p {
-  font-size: 24px;
+  font-size: 16px;
+}
+
+.hero {
+  background: var(--primary-backgroung-color);
+}
+
+.hero p {
+  font-size: 18px;
   font-weight: 400;
+  color: var(--text-brown-dark);
+}
+
+.btn-branding {
+  color: white;
+  padding: 10px;
+  background-color: var(--heading-color-blue);
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 2px 5px 2px #f7f79b, 0px 5px 1px #07588a, -20px 5px 40px #41bebc;
+  transition: 200ms ease-in-out;
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--heading-color-blue);
+  background: var(--heading-color-blue);
+  color: white;
+}
+
+.decoration-photo {
+  border-radius: 25px;
+margin: 70px -50px;
 }
