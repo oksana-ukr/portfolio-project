@@ -104,11 +104,27 @@ i {
 }
 .colorful-section {
   color: var(--info-color-turquoise);
-  
 }
 
 .cover-text-named {
   padding: 0 2px;
   margin: 10px auto;
   max-width: 800px;
+}
+
+.tests-box {
+  padding: 40px 20px;
+  border: 1px solid var(--primary-backgroung-color);
+}
+
+.cover-text-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.cover-text-box h6 {
+  margin: 10px;
 }
