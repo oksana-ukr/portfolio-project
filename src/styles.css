@@ -71,7 +71,7 @@ i {
   border-radius: 25px;
 }
 
-.wrap-services {
+.wrap-link-card {
   display: block;
   padding: 0 80px 0;
   margin: 0 90px 0;
@@ -98,6 +98,17 @@ i {
   color: var(--heading-color-blue);
 }
 
+.color-container {
+  background: var(--primary-backgroung-color);
+  padding: ;
+}
 .colorful-section {
   color: var(--info-color-turquoise);
+  
+}
+
+.cover-text-named {
+  padding: 0 2px;
+  margin: 10px auto;
+  max-width: 800px;
 }
