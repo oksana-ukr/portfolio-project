@@ -82,3 +82,9 @@ i {
   justify-content: center;
   margin: 30px 65px 0;
 }
+
+.wrap-text {
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+}
