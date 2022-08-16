@@ -88,3 +88,16 @@ i {
   margin: 30px auto;
   max-width: 800px;
 }
+
+.primary-link {
+  text-decoration: none;
+  color: var(--extra-blue-light);
+}
+
+.primary-link:hover {
+  color: var(--heading-color-blue);
+}
+
+.colorful-section {
+  color: var(--info-color-turquoise);
+}
