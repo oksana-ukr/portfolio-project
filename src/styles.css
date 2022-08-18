@@ -95,12 +95,12 @@ i {
 }
 
 .primary-link:hover {
-  color: var(--heading-color-blue);
+  color: var(--info-color-turquoise);
 }
 
 .color-container {
   background: var(--primary-backgroung-color);
-  padding: ;
+  padding: 40px 80px;
 }
 .colorful-section {
   color: var(--info-color-turquoise);
@@ -127,6 +127,12 @@ i {
 
 .cover-text-box h6 {
   border-radius: 30px;
+  margin: auto 30px;
+}
+
+.cover-text-box a {
+  color: #07588a;
+  text-decoration: none;
 }
 
 .accordion-button:not(.collapsed) {
@@ -141,6 +147,6 @@ i {
 /*FAQ*/
 .wrap-content {
   background-color: var(--primary-backgroung-color);
-  padding: 30px;
+  padding: 40px 80px;
   margin: 0 auto;
 }
