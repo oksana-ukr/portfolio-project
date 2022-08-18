@@ -1,13 +1,14 @@
 :root {
   --primary-backgroung-color: #fbf6f0;
   --secondary-background-color: #e2d1c3;
-  --third-background-color: #f7f79b;
+  --third-background-color: #fce38a;
   --info-color-turquoise: #41bebc;
   --heading-color-blue: #07588a;
-  --extra-blue-light: #236f9f;
-  --text-brown-dark: #1d1716;
-  --text-shadow: 1px 1px #1d1716, 1px 1px 5px #236f9f;
-  --button-box-shadow: 2px 5px 2px #f7f79b, 0px 5px 1px #07588a;
+  --extra-blue-light: #0278ae;
+  --text-brown-dark: #33313b;
+  --new-accent-color: #645fce;
+  --text-shadow: 1px 1px #33313b, 1px 1px 5px #0278ae;
+  --button-box-shadow: 2px 5px 2px #fce38a, 0px 5px 1px #07588a;
 }
 
 body {
@@ -23,6 +24,7 @@ h1 {
 
 h2 {
   font-weight: bold;
+  color: var(--third-background-color);
 }
 
 h6 {
@@ -80,13 +82,16 @@ i {
 .pointer {
   display: flex;
   justify-content: center;
-  margin: 30px 65px 0;
 }
 
 .wrap-text {
   padding: 20px;
-  margin: 30px auto;
+  margin: 2px auto;
   max-width: 800px;
+}
+
+.wrap-text h2 {
+  color: var(--info-color-turquoise);
 }
 
 .primary-link {
@@ -137,14 +142,13 @@ i {
 
 .accordion-button:not(.collapsed) {
   color: var(--info-color-turquoise);
-  background: var(--primary-backgroung-color);
+  background: var(--heading-color-blue);
 }
 
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='turquoise'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
-/*FAQ*/
 .wrap-content {
   background-color: var(--primary-backgroung-color);
   padding: 40px 80px;
