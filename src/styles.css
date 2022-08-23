@@ -10,6 +10,10 @@
   --text-font: "Work Sans", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 46px;
   font-weight: bolder;
@@ -21,6 +25,11 @@ h2 {
   font-weight: bold;
   color: var(--fourth-color-blue);
   font-family: var(--font-accent);
+}
+
+h5 {
+  color: var(--main-color-turquoise);
+  text-shadow: var(--text-shadow);
 }
 
 h6 {
@@ -56,11 +65,6 @@ i {
 
 .wrap-hero {
   padding: 70px 60px;
-}
-
-.accent {
-  color: var(--main-color-turquoise);
-  text-shadow: var(--text-shadow);
 }
 
 .btn-branding {
@@ -167,11 +171,7 @@ h2 {
 }
 
 .cover-text-box {
-  display: flex;
-  justify-content: space-evenly;
-  flex: 1;
   border-radius: 4px;
-  margin: 20px;
 }
 
 .cover-text-box h6 {
@@ -223,4 +223,41 @@ h2 {
   font-size: 18px;
   line-height: 1.5;
   color: var(--text-dark);
+}
+
+@media (max-width: 576px) {
+  .wrap-hero {
+    text-align: center;
+  }
+
+  .wrap-hero a {
+    margin: 20px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .wrap-link-card {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .top-m {
+    margin: 50px 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrap-hero {
+    text-align: center;
+  }
+
+  .wrap-hero a {
+    margin: 30px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
 }
