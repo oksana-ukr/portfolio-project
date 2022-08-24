@@ -120,7 +120,6 @@ i {
 /* blog */
 .wrap-link-card {
   padding: 1px 0;
-  align-items: center;
 }
 
 .wrap-link-card a {
@@ -189,6 +188,7 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   font-family: var(--text-font);
+  text-align: center;
 }
 
 /* faq */
