@@ -227,6 +227,10 @@ h2 {
 /* about */
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+
   .wrap-hero {
     text-align: center;
   }
@@ -235,16 +239,16 @@ h2 {
     margin: 20px 0;
   }
 
-  h1 {
-    font-size: 30px;
-  }
-
   .top-m {
     margin: 50px 0;
   }
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+  }
+
   .wrap-hero {
     text-align: center;
   }
@@ -253,11 +257,43 @@ h2 {
     margin: 30px 0;
   }
 
-  h1 {
-    font-size: 40px;
-  }
-
   .cover-text-box h6 {
     text-align: center;
+  }
+
+  .about h2 {
+    margin-top: 40px;
+  }
+
+  .content-about {
+    margin-bottom: 60px;
+  }
+
+  .about-text p {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .about-doc h2 {
+    margin: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about h2 {
+    margin-top: 40px;
+  }
+
+  .about-text p {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .about-doc h2 {
+    margin: 60px;
+  }
+
+  .content-about {
+    margin: 0;
   }
 }
