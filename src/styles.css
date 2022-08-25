@@ -93,9 +93,9 @@ i {
 /* services */
 
 .wrap-text {
-  padding: 20px;
+  padding: 70px 60px;
   margin: 2px auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .wrap-text h2 {
@@ -161,7 +161,7 @@ h2 {
 .cover-text-named {
   padding: 0 2px;
   margin: 10px auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .cover-text-named i {
@@ -223,6 +223,8 @@ h2 {
   line-height: 1.5;
   color: var(--text-dark);
 }
+
+/* about */
 
 @media (max-width: 576px) {
   .wrap-hero {
