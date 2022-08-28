@@ -265,6 +265,14 @@ h2 {
   margin: 0 auto;
 }
 
+/* contact */
+.contact-form {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+
 /* about */
 
 @media (max-width: 576px) {
