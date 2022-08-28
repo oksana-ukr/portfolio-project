@@ -32,4 +32,53 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <header>
+    <div class="container mt-5">
+      <h1 class="text-center">Contact me</h1>
+    </div>
+  </header>
+  <form>
+      <div class="shadow rounded p-5 container mt-5 box-container">
+          <h2 class="text-center mb-3">Є питання та пропозиції</h2>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label for="firstName" class="form-label">Як Вас звати?</label>
+        <input
+          type="text"
+          class="form-control" 
+          id="firstName" required/>
+      </div>
+
+      <div class="col-md-6">
+        <label for="email" class="form-label">Який у Вас email?</label>
+        <input
+          type="text"
+          class="form-control" id="email" required/>
+      </div>
+
+      <div class="col-md-7">
+    <label for="inputQuestion" class="form-label">Як Ви дізналися про мене?</label>
+    <input type="text" class="form-control" id="inputQuestion" required>
+  </div>
+
+  <div class="col-md-5">
+      <label for="phoneNumber" class="form-label">Який у Вас номер телефону?</label>
+    <input type="text" class="form-control" id="phoneNumber">
+  </div>
+
+  <div class="col-md-12">
+      <label for="comments" class="form-label">Напишіть свої побажання стосовно запису</label>
+      <textarea class="form-control" id="comments" rows="3" required></textarea>  
+    </div>
+
+    <div class="clearfix">
+    <div class="col-md-12">
+        <input type="submit" value="Відправити" class="btn btn-branding float-end mt-3"></input>
+    </div>
+    </div>
+
+
+    </div>
+
+  </form>
 </html>

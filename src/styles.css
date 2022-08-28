@@ -50,17 +50,17 @@ i {
   color: var(--main-color-turquoise);
 }
 
-.hero {
+.box-container {
   background: var(--primary-backgroung-color);
 }
 
-.hero p {
+.box-container p {
   font-size: 18px;
   font-weight: 500;
   color: var(--text-dark);
 }
 
-.hero h2 {
+.box-container h2 {
   color: var(--main-color-turquoise);
 }
 
@@ -260,10 +260,6 @@ h2 {
   color: white;
 }
 
-.color {
-  background-color: var(--primary-backgroung-color);
-}
-
 .center {
   display: block;
   margin: 0 auto;
@@ -332,7 +328,6 @@ h2 {
   .about-doc h2 {
     margin: 60px;
   }
-
 }
 
 @media (max-width: 1100px) {
