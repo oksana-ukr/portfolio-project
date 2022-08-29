@@ -272,7 +272,57 @@ h2 {
   margin: 0 auto;
 }
 
+/* nav */
 
+.nav-link {
+  color: var(--text-dark);
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: var(--main-color-turquoise);
+  color: white;
+  border-radius: 30px;
+  transition: 1s all;
+}
+
+.navbar-toggler {
+  color: var(--main-color-turquoise) !important;
+  border: 3px solid var(--main-color-turquoise)!important;
+  border-radius: 40px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='turquoise' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.dropdown-menu {
+  border: 1px solid var(--accent-color) !important;
+  border-radius: 20px;
+}
+
+.dropdown-menu:hover {
+  border-radius: 20px;
+}
+
+.dropdown-item {
+  color: var(--text-dark);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: var(--main-color-turquoise);
+  border-radius: 20px;
+  border: 1px solid var(--main-color-turquoise);
+}
+
+.lang-nav {
+  list-style: none;
+}
+
+.lang-nav a {
+  padding: 7px;
+}
 /* about */
 
 @media (max-width: 576px) {
