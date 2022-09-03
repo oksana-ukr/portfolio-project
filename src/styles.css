@@ -288,7 +288,7 @@ h2 {
 
 .navbar-toggler {
   color: var(--main-color-turquoise) !important;
-  border: 3px solid var(--main-color-turquoise)!important;
+  border: 3px solid var(--main-color-turquoise) !important;
   border-radius: 40px;
 }
 
