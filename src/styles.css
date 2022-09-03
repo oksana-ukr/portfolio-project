@@ -28,7 +28,7 @@ h2 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23px;
   font-weight: 600;
   color: var(--text-dark);
@@ -340,6 +340,16 @@ h2 {
   font-weight: bolder;
 }
 
+.wp-link-post {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.wp-link-post:hover {
+  color: var(--fourth-color-blue);
+  opacity: 0.9;
+  transition: 200ms ease-in;
+}
 
 @media (max-width: 576px) {
   h1 {
