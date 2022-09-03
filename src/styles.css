@@ -351,6 +351,30 @@ h2 {
   transition: 200ms ease-in;
 }
 
+/* tests */
+.field-title h3 {
+  font-size: 19px;
+  padding: 18px;
+}
+
+.field-title h3:hover {
+  background-color: var(--main-color-turquoise);
+  border-radius: 20px;
+}
+
+.field-title a {
+  color: var(--text-dark);
+}
+
+.field-title a:hover {
+  color: white;
+  transition: 200ms ease-in;
+}
+
+
+
+
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
