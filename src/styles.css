@@ -372,8 +372,19 @@ h2 {
 }
 
 
+/* contact */
+.dark {
+  color: var(--text-dark);
+}
 
+.dark-link {
+  color: var(--text-dark);
+}
 
+.dark-link:hover {
+  opacity: 0.9;
+  color: var(--main-color-turquoise);
+}
 
 @media (max-width: 576px) {
   h1 {
