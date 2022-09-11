@@ -27,6 +27,12 @@ h2 {
   font-family: var(--font-accent);
 }
 
+h3 {
+  font-size: 23px;
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
 h4 {
   font-size: 20px;
   line-height: 23px;
@@ -370,7 +376,6 @@ h2 {
   color: white;
   transition: 200ms ease-in;
 }
-
 
 /* contact */
 .dark {
