@@ -358,6 +358,35 @@ h2 {
   transition: 200ms ease-in;
 }
 
+/* page 1 */
+
+.article-start-1 {
+  margin: 90px;
+  padding-top: 30px;
+}
+
+.article-start-1 p,
+small {
+  color: var(--text-dark);
+}
+
+.article-start-1 img {
+  border: var(--accent-color);
+}
+
+.article-body-1 {
+max-width: 800px;
+}
+
+/* body */
+.article-body-1 h5 {
+  text-align: center;
+  color: var(--fourth-color-blue);
+}
+
+
+
+
 /* tests */
 .field-title h3 {
   font-size: 19px;
