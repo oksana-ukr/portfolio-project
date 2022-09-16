@@ -83,6 +83,15 @@ i {
   padding: 70px 60px;
 }
 
+.logo {
+  max-width: 60px;
+}
+
+.logo:hover {
+  background: var(--main-color-turquoise);
+  transition: 1s all;
+}
+
 .btn-branding {
   color: white;
   background-color: var(--main-color-turquoise);
@@ -375,17 +384,14 @@ small {
 }
 
 .article-body-1 {
-max-width: 800px;
+  max-width: 800px;
 }
 
-/* body */
+/* body of article */
 .article-body-1 h5 {
   text-align: center;
   color: var(--fourth-color-blue);
 }
-
-
-
 
 /* tests */
 .field-title h3 {
@@ -422,6 +428,10 @@ max-width: 800px;
 }
 
 /* footer */
+
+.wrap-footer {
+  background-color: var(--primary-backgroung-color);
+}
 
 .f-style {
   display: flex;
