@@ -431,6 +431,8 @@ small {
 
 .wrap-footer {
   background-color: var(--primary-backgroung-color);
+  padding: 60px;
+  line-height: 1.5;
 }
 
 .f-style {
@@ -496,6 +498,24 @@ small {
 
   .services-res a {
     margin-bottom: 35px;
+  }
+
+  /* footer */
+
+  .wrap-footer {
+    text-align: center;
+  }
+
+  .social h6 {
+    text-align: center;
+  }
+
+  .f-style {
+    margin: 25px;
+  }
+
+  footer .logo {
+    margin-right: 50px;
   }
 }
 
