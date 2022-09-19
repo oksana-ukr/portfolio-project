@@ -387,8 +387,7 @@ small {
   border: var(--accent-color);
 }
 
-.article-body-1,
-.article-body-2 {
+.article-body-1 {
   max-width: 800px;
 }
 
@@ -410,6 +409,9 @@ small {
 
 /* page 2 */
 
+.article-body-2 {
+  max-width: 600px;
+}
 .mark {
   background-color: var(--primary-backgroung-color);
   color: var(--text-dark);
@@ -428,6 +430,18 @@ small {
   font-size: 40px;
   color: var(--fourth-color-blue);
 }
+
+/* page 3 */
+.accent-box {
+  padding: 40px;
+  border: 1px solid var(--accent-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: var(--text-font);
+}
+
+
 
 /* tests */
 .field-title h3 {
