@@ -195,6 +195,7 @@ h2 {
   border-radius: 4px;
 }
 
+
 .cover-text-box h6 {
   border-radius: 30px;
   margin: auto 30px;
@@ -212,6 +213,10 @@ h2 {
   line-height: 1.5;
   font-family: var(--text-font);
   text-align: center;
+}
+
+.tests-box:hover {
+  background-color: var(--primary-backgroung-color);
 }
 
 /* faq */
