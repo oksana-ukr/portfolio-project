@@ -195,7 +195,6 @@ h2 {
   border-radius: 4px;
 }
 
-
 .cover-text-box h6 {
   border-radius: 30px;
   margin: auto 30px;
@@ -206,7 +205,7 @@ h2 {
   color: var(--fourth-color-blue);
 }
 
-.tests-box {
+.line-box {
   padding: 40px 20px;
   border: 1px solid var(--fourth-color-blue);
   font-weight: 500;
@@ -215,7 +214,7 @@ h2 {
   text-align: center;
 }
 
-.tests-box:hover {
+.line-box:hover {
   background-color: var(--primary-backgroung-color);
 }
 
@@ -388,13 +387,45 @@ small {
   border: var(--accent-color);
 }
 
-.article-body-1 {
+.article-body-1,
+.article-body-2 {
   max-width: 800px;
 }
 
 /* body of article */
+
+.article-body-1 p,
+.article-body-2 p {
+  font-size: 20px;
+}
+
 .article-body-1 h5 {
   text-align: center;
+  color: var(--fourth-color-blue);
+}
+
+.article-body-2 p {
+  color: var(--text-dark);
+}
+
+/* page 2 */
+
+.mark {
+  background-color: var(--primary-backgroung-color);
+  color: var(--text-dark);
+}
+
+.blue-box {
+  padding: 40px;
+  border: 1px solid var(--fourth-color-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: var(--text-font);
+}
+
+.accent-color-blue {
+  font-size: 40px;
   color: var(--fourth-color-blue);
 }
 
@@ -523,7 +554,7 @@ small {
   .wrap-footer {
     text-align: center;
   }
-  
+
   .social {
     margin-right: -30px;
   }
@@ -543,7 +574,6 @@ small {
   .footer-title {
     text-align: center;
   }
-
 }
 
 @media (max-width: 960px) {
